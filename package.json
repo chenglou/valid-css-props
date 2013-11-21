@@ -1,0 +1,23 @@
+{
+  "name": "valid-css-props",
+  "version": "0.0.0",
+  "description": "All valid standard CSS properties.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenglou/valid-css-props"
+  },
+  "keywords": [
+    "css",
+    "valid",
+    "properties"
+  ],
+  "author": "chenglou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenglou/valid-css-props/issues"
+  }
+}
