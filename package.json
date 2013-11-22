@@ -1,6 +1,6 @@
 {
   "name": "valid-css-props",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check for the validity of a CSS property name.",
   "main": "index.js",
   "scripts": {
