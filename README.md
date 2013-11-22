@@ -7,12 +7,11 @@ npm install valid-css-props
 ## API
 
 ```js
-var validCSSProps = require('validCSSProps');
+var isValidCSSProp = require('validCSSProps');
 
-console.log(validCSSProps['background-color']); // => true
-console.log(validCSSProps['abc']); // => false
-console.log(validCSSProps['-webkit-transition']); 
-// => false, the non-vendor-prefixed version works
+isValidCSSProp('background-color'); // => true
+isValidCSSProp('abc'); // => false
+isValidCSSProp('-webkit-transition'); // => true
 ```
 
 ## License

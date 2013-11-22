@@ -1,4 +1,4 @@
-var validCSSProps = {
+var _validCSSProps = {
   'animation': true,
   'animation-name': true,
   'animation-duration': true,
@@ -245,4 +245,11 @@ var validCSSProps = {
   'resize': true
 }
 
-module.exports = validCSSProps;
+var vendorPrefixRegEx = /^-.+-/;
+
+module.exports = function(prop) {
+  if (prop[0] === '-') {
+    return _validCSSProps[prop.replace(vendorPrefixRegEx, '')];
+  }
+  return  _validCSSProps[prop];
+};
