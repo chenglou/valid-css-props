@@ -1,10 +1,10 @@
 {
   "name": "valid-css-props",
   "version": "0.0.0",
-  "description": "All valid standard CSS properties.",
+  "description": "Check for the validity of a CSS property name.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests.js"
   },
   "repository": {
     "type": "git",

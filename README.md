@@ -1,5 +1,7 @@
 # Valid CSS Props
 
+Check for the validity of a CSS property name.
+
 ```bash
 npm install valid-css-props
 ```

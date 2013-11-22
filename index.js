@@ -249,7 +249,7 @@ var vendorPrefixRegEx = /^-.+-/;
 
 module.exports = function(prop) {
   if (prop[0] === '-') {
-    return _validCSSProps[prop.replace(vendorPrefixRegEx, '')];
+    return !!_validCSSProps[prop.replace(vendorPrefixRegEx, '')];
   }
-  return  _validCSSProps[prop];
+  return !!_validCSSProps[prop];
 };
