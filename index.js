@@ -167,6 +167,7 @@ var _validCSSProps = {
   'outline-style': true,
   'outline-width': true,
   'overflow': true,
+  'overflow-scrolling': true,
   'overflow-style': true,
   'overflow-x': true,
   'overflow-y': true,
