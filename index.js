@@ -184,6 +184,7 @@ var _validCSSProps = {
   'perspective': true,
   'perspective-origin': true,
   'phonemes': true,
+  'pointer-events': true,
   'position': true,
   'punctuation-trim': true,
   'quotes': true,
