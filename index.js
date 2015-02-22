@@ -1,4 +1,7 @@
 var _validCSSProps = {
+  'align-content': true,
+  'align-items': true,
+  'align-self': true,
   'alignment-adjust': true,
   'alignment-baseline': true,
   'animation': true,
@@ -132,6 +135,7 @@ var _validCSSProps = {
   'image-orientation': true,
   'image-resolution': true,
   'inline-box-align': true,
+  'justify-content': true,
   'left': true,
   'letter-spacing': true,
   'line-height': true,
@@ -167,6 +171,7 @@ var _validCSSProps = {
   'nav-right': true,
   'nav-up': true,
   'opacity': true,
+  'order': true,
   'orphans': true,
   'outline': true,
   'outline-color': true,
